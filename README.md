@@ -21,40 +21,23 @@ This repository contains the code sample for measuring gas usages of different t
     In this example, we deploy ERC20 using different mechanisms. This allows us to compare the deployment and usage costs associated with the different deployment patterns.
 
   - Gas Usage for each function call
-    ······················································|·············|
-    |  Methods                                                           
-    ······································|···············|·············|
-    |  Contract                           ·  Method       ·  Gas        ·
-    ······································|···············|·············|
-    |  Implementation ERC20               ·  transfer     ·      51375  ·
-    ······································|···············|·············|
-    |  TUP ERC20                          ·  transfer     ·      58676  ·
-    ······································|···············|·············|
-    |  Clone ERC20                        ·  transfer     ·      54053  ·
-    ······································|···············|·············|
-    |  UUPS ERC20                         ·  transfer     ·      56276  ·
-    ······································|···············|·············|
-    |  FactoryClone                       ·  createToken  ·     184530  ·
-    ······································|···············|·············|
-    |  FactoryImplementation              ·  createToken  ·     955713  ·
-    ······································|···············|·············|
-    |  FactoryTUP                         ·  createToken  ·     642123  ·
-    ······································|···············|·············|
-    |  FactoryUUPS                        ·  createToken  ·     259799  ·
-    ······································|···············|·············|
+    |  Contract                           |  Method       |  Gas        |
+    | ----------------------------------- | ------------- | ----------- |
+    |  Implementation ERC20               |  transfer     |      51375  |
+    |  TUP ERC20                          |  transfer     |      58676  |
+    |  Clone ERC20                        |  transfer     |      54053  |
+    |  UUPS ERC20                         |  transfer     |      56276  |
+    |  FactoryClone                       |  createToken  |     184530  |
+    |  FactoryImplementation              |  createToken  |     955713  |
+    |  FactoryTUP                         |  createToken  |     642123  |
+    |  FactoryUUPS                        |  createToken  |     259799  |
 
 
   - Gas Usage for contract deployments
-    ······················································|·············|
-    |  Deployments                                                      ·
-    ······················································|·············|
-    |  Contract                                           ·  Gas        ·
-    ······················································|·············|
-    |  FactoryClone                                       ·    1107602  ·
-    ······················································|·············|
-    |  FactoryImplementation                              ·    1039468  ·
-    ······················································|·············|
-    |  FactoryTUP                                         ·    1861538  ·
-    ······················································|·············|
-    |  FactoryUUPS (Uses UUPSCompatibleERC20)             ·    1956580  ·
-    ······················································|·············|
+
+    | Contract                                          |  Gas        |
+    | ------------------------------------------------- | ----------: |
+    | FactoryClone                                      |    1107602  |
+    | FactoryImplementation                             |    1039468  |
+    | FactoryTUP                                        |    1861538  |
+    | FactoryUUPS (Uses UUPSCompatibleERC20)            |    1956580  |
