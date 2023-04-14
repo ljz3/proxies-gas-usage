@@ -36,7 +36,7 @@ This repository contains the code sample for measuring gas usages of different t
   - Gas Usage for contract deployments
 
     | Contract                                          |  Gas        |
-    | ------------------------------------------------- | ----------: |
+    | ------------------------------------------------- | ----------  |
     | FactoryClone                                      |    1107602  |
     | FactoryImplementation                             |    1039468  |
     | FactoryTUP                                        |    1861538  |
