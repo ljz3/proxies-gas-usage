@@ -6,14 +6,14 @@ This repository contains the code sample for measuring gas usages of different t
 
 ## Structure
 
-- `contracts/ERC20`: Comparison of three different deployment mechanisms for ERC20 tokens.
+- `contracts`: Comparison of four different deployment mechanisms for ERC20 tokens.
 - `test`: Tests for contracts.
 - `hardhart.config.js`: Hardhat configuration, including compiler optimization options.
 
 ## Scripts
 
-- `npm run compile`: Compile the contracts.
-- `npm run test`: Run the tests and produce a gas usage report.
+- `yarn compile`: Compile the contracts.
+- `yarn test`: Run the tests and produce a gas usage report.
 
 ## Examples
   - Description:
