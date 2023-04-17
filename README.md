@@ -2,7 +2,7 @@
 
 This repository contains the code sample for measuring gas usages of different types of proxies used in the article, "Deep Dive into Smart Contract Proxies: CREATE vs. CREATE2, Variants, and Security Considerations".
 
-[Placeholder Link for Article]
+[Read the article here](https://medium.com/@scourgedev/deep-dive-into-smart-contract-proxies-variants-create-vs-create2-and-security-considerations-7f3454d176a0)
 
 ## Structure
 
